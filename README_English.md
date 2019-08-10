@@ -12,18 +12,18 @@ pip install pygame
 
 ## Files
 
-### Acess the Pong_English folder an you'll find all the .py files with english comments
+* meio de campo.psd - native Photoshop file used to create 'mid line.png'
+* zig____.ttf - font's file used to do the score
+* zig____ReadMe.txt - font's README
 
-* Pong.py - Arquivo principal do projeto que contém a lógica principal do jogo.
-* classeBola.py - Contém a classe que gera objetos do tipo bola e seus métodos .
-* classePlayer.py - Contém a classe que gera objetos do tipo player que representa as barras laterais.
-* funcoes.py - Contém a função de movimento e pontuação.
-* meio de campo.png - imagem se fundo da linha do meio de campo.
-* meio de campo.psd - arquivo nativo do Photoshop que usei para criar o png.
-* zig____.ttf - arquivo da fonte usada no placar
-* zig____ReadMe.txt - README da fonte
+### Acess the Pong_English folder an you'll find some files with english names/comments/variable names
 
+* Pong.py - Main project file. It contains the main logic of the game.
+* classBall.py - Class that generates ball type objects and its methods.
+* classPlayer.py - Class that generates player type objects that represents the side bars.
+* functions.py - Has the movement and score functions.
+* mid line.png - background image of the center line.
 
 ## Autor
 
-* **Claudio Kamoda** - 07/08/2019
+* **Claudio Kamoda** - 08/07/2019
