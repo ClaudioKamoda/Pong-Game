@@ -2,7 +2,7 @@ Available in English: [README in English]()
 # Projeto de Inverno 2019 #1 (PONG)
 Recriação do jogo clássico Pong utilizando Python e a biblioteca pygame.
 
-O projeto de inverno é uma idealização pessoal minha no qual eu uso meu tempo livre para desenvolver um projeto no qual eu estou interessado. 
+O projeto de inverno é uma idealização pessoal minha no qual eu uso meu tempo livre para desenvolver um projeto que estou interessado. 
 A edição de inverno geralmente ocorre no mês de Agosto e pode ter mais de um projeto.
 * Atualmente o projeto se encontra avançado, porém não completo e está passível de mudanças no futuro.
 
