@@ -1,6 +1,8 @@
 # Winter Project 2019 #1 (PONG)
 Recreation of the classic game Pong using Python and the pygame library
 
+![Project running](https://github.com/ClaudioKamoda/Winter-Project-2019/blob/master/Exemplo%201.PNG)
+
 The Winter Project is a personal idealization in which I use my free time to develop a project that I am interested. The Winter edition happens in August and might have more than one project.
 * Currently this project is in an advanced state, but not finished at all and is passive to change in the future.
 
