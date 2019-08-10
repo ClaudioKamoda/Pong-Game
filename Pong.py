@@ -19,31 +19,29 @@ JAN_ALTURA = 300
 # inicializacao da janela
 jan = pygame.display.set_mode((JAN_LARGURA, JAN_ALTURA))
 
-pygame.display.set_caption("Pong")              # Legenda superior da tela
-fonte = pygame.font.SysFont('zig', 30, True)    # objeto que recebe o a fonte do placar
-clock = pygame.time.Clock()                     # clock
+pygame.display.set_caption("Pong")                      # Legenda superior da tela
+fonte = pygame.font.SysFont('zig', 30, True)            # objeto que recebe o a fonte do placar com tamanho 30 e em negrito
+clock = pygame.time.Clock()                             # clock
+meioDeCampo = pygame.image.load('meio de campo.png')    # linha central da tela
 
 # instanciacao dos objetos (ver classes)
 jog_Esq = cp.player(20, 135, 30, 10)                    # barra da esquerda
 jog_Dir = cp.player(470, 135, 30, 10)                   # barra da direita
 bola = cb.bola(10)                                      # bola
-meioDeCampo = pygame.image.load('meio de campo.png')    # linha central da tela
 
 
 # funcao que agrega todas as operacoes de desenho na tela
 def desenhaTela():
-    jan.fill((0, 0, 0))             # preenche a tela com a cor preta para apagar a iteracao anterior
-    jog_Esq.desenha_player(jan)     # desenha a barra da esquerda
-    jog_Dir.desenha_player(jan)     # desenha a barra da direita
+    jan.fill((0, 0, 0))                 # preenche a tela com a cor preta para apagar a iteracao anterior
+    placar1 = fonte.render(str(jog_Esq.pontos), 1, (255, 255, 255))     # placar da esquerda
+    placar2 = fonte.render(str(jog_Dir.pontos), 1, (255, 255, 255))     # placar da direita
+    jog_Esq.desenha_player(jan)         # desenha a barra da esquerda
+    jog_Dir.desenha_player(jan)         # desenha a barra da direita
     bola.desenha_bola(jan)              # desenha a bola
     jan.blit(meioDeCampo, (245, 0))     # desenha a linha central
-    placar1 = fonte.render(str(jog_Esq.pontos),1, (255, 255, 255))      # placar da esquerda
-    placar2 = fonte.render(str(jog_Dir.pontos),1, (255, 255, 255))      # placar da direita
-    jan.blit(placar1, (180, 20))    # desenha o placar da esquerda
-    jan.blit(placar2, (290, 20))    # desenha o placar da direita
-    pygame.display.update()         # atualiza a tela
-
-    return
+    jan.blit(placar1, (180, 20))        # desenha o placar da esquerda
+    jan.blit(placar2, (290, 20))        # desenha o placar da direita
+    pygame.display.update()             # atualiza a tela
 
 
 # laco principal

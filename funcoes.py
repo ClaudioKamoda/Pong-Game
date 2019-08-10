@@ -18,8 +18,6 @@ def movimento(b, j1, j2):
     b.coord[0] += b.move[0]
     b.coord[1] += b.move[1]
 
-    return
-
 
 # verifica se a bola saiu da tela pelas laterais
 def pontuacao(b, j1, j2):
