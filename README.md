@@ -1,4 +1,4 @@
-Available in English: [README in English]()
+Available in English: [README in English](https://github.com/ClaudioKamoda/Winter-Project-2019/blob/master/README_English.md)
 # Projeto de Inverno 2019 #1 (PONG)
 Recriação do jogo clássico Pong utilizando Python e a biblioteca pygame.
 
