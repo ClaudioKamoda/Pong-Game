@@ -26,6 +26,6 @@ pip install pygame
 * functions.py - Has the movement and score functions.
 * mid line.png - background image of the center line.
 
-## Autor
+## Author
 
 * **Claudio Kamoda** - 08/07/2019
