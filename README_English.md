@@ -1,5 +1,5 @@
 # Winter Project 2019 #1 (PONG)
-Recreation of the classic game Pong using Python and the pygame library
+Python recreation of the classic game Pong using the pygame library
 
 ![Project running](https://github.com/ClaudioKamoda/Winter-Project-2019/blob/master/Exemplo%201.PNG)
 
@@ -18,7 +18,7 @@ pip install pygame
 * zig____.ttf - font's file used to do the score
 * zig____ReadMe.txt - font's README
 
-### Acess the Pong_English folder an you'll find some files with english names/comments/variable names
+### Acess the Pong_English folder and you'll find some files with english names/comments/variable names
 
 * Pong.py - Main project file. It contains the main logic of the game.
 * classBall.py - Class that generates ball type objects and its methods.
